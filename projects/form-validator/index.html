@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/global.css" />
+    <link rel="stylesheet" href="/projects/form-validator/style.css" />
+    <title>Form validator</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h1>Register form</h1>
+        <div>
+          <label for="userName">Username</label>
+          <input id="userName" type="text" placeholder="Enter username" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="text" placeholder="Enter email" />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="Enter password" />
+        </div>
+        <div>
+          <label for="confirm-password">Confirm password</label>
+          <input id="confirm-password" type="password" placeholder="Confirm password" />
+        </div>
+        <button>Submit</button>
+      </form>
+      <div class="modal-success disable">
+        <h1>Thank you!</h1>
+        <lottie-player
+          src="https://assets3.lottiefiles.com/packages/lf20_uu0x8lqv.json"
+          mode="bounce"
+          background="transparent"
+          speed="1"
+          style="width: 200px; height: 200px"
+          loop
+          autoplay
+        ></lottie-player>
+      </div>
+    </div>
+    <script src="/projects/form-validator/index.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </body>
+</html>
