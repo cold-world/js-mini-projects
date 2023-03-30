@@ -9,6 +9,11 @@
   box-sizing: inherit;
 }
 
+li {
+  list-style: none;
+}
+
+
 html {
   box-sizing: border-box;
   font-size: 62.5%; /* = 10px */

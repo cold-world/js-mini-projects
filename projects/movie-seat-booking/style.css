@@ -1,0 +1,108 @@
+body {
+  background-color: #242333;
+  color: #fff;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app {
+  width: 30vw;
+  text-align: center;
+}
+
+.movie-container select {
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+  margin-left: 0.8rem;
+}
+
+.story {
+  background-color: #1b1a26;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+  gap: 1rem;
+  border-radius: 5px;
+}
+
+.story li {
+  display: flex;
+  align-items: center;
+}
+
+.seat {
+  background-color: #444451;
+  height: 1.2rem;
+  width: 1.5rem;
+  margin: 3px;
+  border-radius: 5px 5px 0 0;
+  transition: all 0.3s;
+}
+
+.seat:nth-of-type(2) {
+  margin-right: 1.5rem;
+}
+
+.seat:nth-of-type(6) {
+  margin-right: 1.5rem;
+}
+
+.occupied {
+  background-color: #fff;
+}
+
+.selected {
+  background-color: aqua;
+}
+
+.screen {
+  margin: 0 auto;
+  width: 90%;
+  height: 6rem;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  margin-top: 2rem;
+}
+
+.info-price {
+  color: aqua;
+}
+
+.info-seats {
+  color: aqua;
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+.container .seat {
+  cursor: pointer;
+}
+
+.container .seat:not(.occupied):hover {
+  transform: scale(1.2);
+}
+
+.container .occupied {
+  cursor: not-allowed;
+}
