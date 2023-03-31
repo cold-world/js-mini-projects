@@ -10,7 +10,7 @@ body {
 }
 
 .app {
-  width: 30vw;
+  max-width: 30rem;
   text-align: center;
 }
 
