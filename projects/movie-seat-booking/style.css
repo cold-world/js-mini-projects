@@ -79,8 +79,9 @@ body {
   justify-content: center;
 }
 
-.info {
+.info-container {
   margin-top: 2rem;
+  position: relative;
 }
 
 .info-price {
@@ -89,6 +90,10 @@ body {
 
 .info-seats {
   color: aqua;
+}
+
+.info-index {
+  position: absolute;
 }
 
 .container {

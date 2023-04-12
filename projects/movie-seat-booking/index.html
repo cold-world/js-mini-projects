@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../global.css" />
     <link rel="stylesheet" href="./style.css" />
-    <script type="module" src="/js/controller.js"></script>
+    <script type="module" src="./js/controller.js"></script>
 
     <title>Movie seat booking</title>
   </head>
@@ -99,13 +99,15 @@
           <div class="seat"></div>
           <div class="seat"></div>
         </div>
-        <p class="info">
-          You have selected <span class="info-seats">0</span> for a price of $<span
-            class="info-price"
-            >0</span
-          >
-        </p>
-        <p class="info-index">Your seats are:</p>
+        <div class="info-container">
+          <p class="info">
+            You have selected <span class="info-seats">0</span> for a price of $<span
+              class="info-price"
+              >0</span
+            >
+          </p>
+          <p class="info-index">Your seats are:</p>
+        </div>
       </div>
     </div>
   </body>
